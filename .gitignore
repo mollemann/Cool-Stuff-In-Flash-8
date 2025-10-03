@@ -1,0 +1,6 @@
+# latexmk spits out a bunch of files I rather not store in git.
+*.aux
+*.fdb_latexmk
+*.pdf
+*.log
+*.fls

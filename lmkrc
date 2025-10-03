@@ -1,0 +1,10 @@
+#!/usr/bin/perl
+#
+# Customized perl script to act as the latexmkrc file.
+# Run it with: latexmk -norc -r ./lmkrc
+# Alternatively, just run the compile script as a convenient wrapper.
+#
+
+$pdf_previewer = "xdg-open %O %S";
+$pdf_mode = 1;
+$preview_mode = 1;
